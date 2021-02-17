@@ -2,9 +2,9 @@
 
 from django.core.validators import ValidationError
 from django.db.models import CharField
-from widgets import ColorPickerWidget
-from forms import ColorField as ColorFormField
-from utils import (
+from .widgets import ColorPickerWidget
+from .forms import ColorField as ColorFormField
+from .utils import (
     is_valid_alpha_hex, is_valid_hex, is_valid_rgb,
     is_valid_rgba, rgba_to_alpha_hex, rgb_to_hex, hex_to_rgb
 )

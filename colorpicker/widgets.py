@@ -37,7 +37,7 @@ class ColorPickerWidget(TextInput):
                 css_bg = 'rgb(255,255,255)'
 
         if self.as_component:
-            result = u'''
+            result = '''
             <div class="colorpicker input-append color" data-color="%s" data-color-format="%s">
                 %s<span class="add-on">
                     <i style="background-color: %s"></i>
